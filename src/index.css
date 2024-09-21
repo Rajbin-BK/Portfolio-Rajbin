@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-mine {
+	background-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(6, 26, 66)  100%);
+}
+
+#mobile-menu {
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+.shimmer {
+	animation: shimmer 2s infinite linear;
+	background: linear-gradient(to right, #2c2c2c 4%, #333 25%, #2c2c2c 36%);
+	background-size: 1000px 100%;
+}
+
+.main-text {
+	font-size: clamp(3rem, 1rem + 8vw, 6rem);
+	/* Increased font size */
+}
+
+
+.paragraph {
+	font-size: clamp(1.2rem, 0.5rem + 1.5vw, 2rem);
+	/* Adjusted for larger size */
+}
+
+.typewriter .cursor {
+	display: inline-block;
+	width: 2px;
+	background-color: black;
+	animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+	50% {
+		opacity: 0;
+	}
+}
+
+
+/* for the about section */
+.skill-item {
+	display: flex;
+	background: rgb(5, 34, 57);
+	/* background: linear-gradient(117deg, rgb(2, 30, 52) 12%, rgba(7,50,80,1) 92%); */
+	flex-direction: column;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	/* box-shadow: 3px 9px 6px rgba(52, 58, 58, 0.984); */
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-item:hover {
+	transform: translateY(-10px) scale(1.2);
+	box-shadow: 0 0 20px #fff, 0 0 30px rgba(32, 57, 104, 0.97), 0 0 40px rgba(14, 23, 40, 0.97), 0 0 50px rgba(17, 36, 72, 0.97);
+}
+
+.skill-item img {
+
+	width: 80px;
+	height: 80px;
+	;
+	margin-bottom: 10px;
+	object-fit: cover;
+	border-radius: 10px;
+
+}
+
+
+
+.skills-grid {
+	display: flex;
+	flex-wrap: wrap;
+	/* Ensure items wrap on smaller screens */
+	gap: 20px;
+	padding: 0 30px;
+	max-width: 1200px;
+	margin: 0 auto;
+	justify-content: center;
+
+}
+
+.skill-item p {
+	margin: 0;
+	font-size: 1.1em;
+	font-weight: thin;
+	color: #d3cdcd;
+}
+
+@media (max-width: 768px) {
+	.skills-grid {
+		margin: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		/* Ensure items wrap on smaller screens */
+		justify-content: center;
+
+	}
+}
