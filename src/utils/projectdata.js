@@ -35,7 +35,7 @@ const projectData = [
         thumbnail: Netflixthumbnail,
         video: NetflixVideo, // Video link added
         isVideo: true, // New field to identify if it's a video
-        url: 'https://realtimechatapp-five.vercel.app',
+        url: 'https://mernstack-netflix-clone-izhf.onrender.com/',
         git_url: 'https://github.com/Rajbin-BK',
         description: 
             `The Netflix Clone App is a full-stack MERN application that replicates key features of Netflix. It includes secure authentication, movie and TV show streaming from APIs, a responsive UI for mobile and desktop, advanced search functionality, and integrated trailer playback. Users can also view their search history. This project demonstrates my skills in full-stack development and API integration.\n\nTech Stack: React.js, Node.js, Express.js, MongoDB, and Tailwind CSS.`,

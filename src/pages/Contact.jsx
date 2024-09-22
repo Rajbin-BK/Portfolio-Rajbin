@@ -257,21 +257,31 @@ const Contact = () => {
                         ></textarea>
                       </div>
 
-                      <div className="flex justify-end"> {/* This flex container aligns the button to the right */}
-                        <button
-                          data-aos="zoom-in"
-                          data-aos-duration="1000"
-                          data-aos-delay="200"
-                          type="submit"
-                          className="flex items-center py-3 px-5 text-md text-center text-white font-bold rounded-lg bg-primary-700 sm:w-auto hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 border-gray-400 border-2 hover:bg-blue-800 hover:text-white"
-                        >
+                      <div className="flex justify-end">
+  <button
+    data-aos="zoom-in"
+    data-aos-duration="1000"
+    data-aos-delay="200"
+    type="submit"
+    className="
+      flex items-center 
+      py-2 px-4 text-sm sm:py-3 sm:px-5 sm:text-md 
+      text-white font-bold 
+      rounded-lg 
+      bg-primary-700 
+      sm:w-auto 
+      hover:bg-primary-800 
+      focus:ring-4 focus:outline-none focus:ring-primary-300 
+      dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 
+      border-gray-400 border-2 hover:bg-blue-800 
+      transition-all
+    "
+  >
+    Send
+    <SendHorizontal className="ml-1" />
+  </button>
+</div>
 
-                          Send
-                          <SendHorizontal className="ml-1" /> {/* Add margin for spacing */}
-
-
-                        </button>
-                      </div>
                     </form>
 
                   </div>
