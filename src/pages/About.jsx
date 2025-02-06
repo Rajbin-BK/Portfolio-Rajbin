@@ -87,12 +87,12 @@ const About = () => {
                   Hello! I&apos;m <span className="font-bold text-blue-500">Rajbin BK</span>, and I&apos;m passionate about building solutions that enhance lives through the web. My journey into web development started with my early experiments in HTML and CSS, where I quickly discovered the potential of code to create engaging, interactive experiences.
                   <br /><br />
 
-                  Today, as a Computer Science student at <span className="font-bold text-blue-500">Algoma University</span>, I&apos;ve sharpened my skills in both front-end and back-end development, and earned awards for my academic achievements, including the prestigious President’s Award. I specialize in developing web applications that focus on accessibility, inclusivity, and user-friendly design, ensuring every solution not only meets but exceeds expectations.
+                  Today, as a Computer Science graduate at <span className="font-bold text-blue-500">Algoma University</span>, I&apos;ve sharpened my skills in both front-end and back-end development.During my academic journey, I earned prestigious accolades like the President&apos;s Award, reinforcing my commitment to excellence in technology and innovation. I specialize in developing web applications that prioritize accessibility, inclusivity, and user-friendly design, ensuring every solution exceeds expectations.
                   <br /><br />
 
                   In recent projects, I’ve delved deeper into cloud computing and interactive 3D web applications, integrating technologies like Next.js, Three.js, and Upstash Redis to bring innovative solutions to life. From building 3D architectural visualizations to real-time chat applications, my work demonstrates a focus on high performance, security, and creating intuitive user experiences.
                   <br /><br />
-                  Let&apos;s connect and explore how we can create something amazing together!
+                  I’m always eager to connect, collaborate, and push the boundaries of web development. Let&apos;s connect and explore how we can create something amazing together!
                 </p>
 
               </div>
@@ -189,6 +189,8 @@ const About = () => {
                 <img src="icons/nextjs.png" alt="NEXT.js" />
                 <p>NEXT.js</p>
               </div>
+
+
               <div className="skill-item">
                 <img src="icons/azure.png" alt="Azure" />
                 <p>Azure</p>
@@ -197,6 +199,8 @@ const About = () => {
                 <img src="icons/git.png" alt="GitHub" />
                 <p>Github</p>
               </div>
+                
+             
 
               <div className="skill-item">
                 <img src="icons/c.png" alt="C programming" />
@@ -246,13 +250,30 @@ const About = () => {
                 <img src="icons/slack.webp" alt="Slack" />
                 <p>Slack</p>
               </div>
+
+              <div className="skill-item">
+                <img src="icons/AEM.webp" alt="AEM" />
+                <p>AEM</p>
+              </div>
+
               <div className="skill-item">
                 <img src="icons/blender.png" alt="Blender" />
                 <p>Blender</p>
               </div>
+
+              <div className="skill-item">
+                <img src="icons/Jira.png" alt="Jira" />
+                <p>Jira</p>
+              </div>
+
               <div className="skill-item">
                 <img src="icons/vm.png" alt="Virtual Machine" />
                 <p>Oracel VM</p>
+              </div>
+
+              <div className="skill-item">
+                <img src="icons/logism.png" alt="Logism" />
+                <p>Logism</p>
               </div>
             </div>
             <br />

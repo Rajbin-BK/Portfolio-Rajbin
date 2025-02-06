@@ -11,16 +11,16 @@ const Footer = () => {
 					>
 						Rajbin BK
 					</a>
-					. The source code is available on{" "}
+					. Do check my {" "}
 					<a
 						href='https://github.com/Rajbin-BK'
 						target='_blank'
 						rel='noreferrer'
 						className='font-medium underline underline-offset-4'
 					>
-						GitHub
+						GitHub 
 					</a>
-					.
+					<span> </span> page.
 				</p>
                 <p className='text-balance text-center text-sm leading-loose text-muted-foreground md:text-left'>
                 Copyright &copy; 2024 by Rajbin . All rights reserved

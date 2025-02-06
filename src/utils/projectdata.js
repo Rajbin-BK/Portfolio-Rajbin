@@ -12,6 +12,7 @@ import VMthumbnail from '../media/projects/Pictures/Vm.png';
 import Shoesthumbnail from '../media/projects/Pictures/Shoe_website.png';
 import Coffeethumbnail from '../media/projects/Pictures/coffee.png';
 import Busthumbnail from '../media/projects/Pictures/bus.png';
+import Lockthumbnail from '../media/projects/Pictures/DigitalLock.png';
 
 
 
@@ -25,6 +26,7 @@ import ForestVideo from '../media/projects/Vedios/Forest.mp4';
 import SpaceInvaderVideo from '../media/projects/Vedios/Invader Game.mp4';
 import MazeVideo from '../media/projects/Vedios/Maze.mp4';
 import HouseVideo from '../media/projects/Vedios/3DH.mp4';
+import DigitalLockVideo from '../media/projects/Vedios/DigitalLock.webm';
 
 
 
@@ -88,7 +90,22 @@ const projectData = [
         url: 'https://github.com/Rajbin-BK/git-repo',
         git_url: 'https://github.com/Rajbin-BK/git-repo',
         description: 
-            `This project is a 3D space shooter game developed with Three.js, enabling immersive gameplay directly in web browsers. Key features include:\n\n- Cannon Control: Players shoot lasers at alien adversaries.\n- Automatic Shooting: Continuous engagement without manual firing.\n- Obstacle Blocks: Adds challenge and strategy to the gameplay.\n- Real-Time Scoring: Tracks player performance.\n\nThis project showcases Three.js' capabilities for creating interactive 3D games, delivering visually compelling experiences in the browser.`,
+            `
+This project is a 3D space shooter game developed with Three.js, enabling immersive gameplay directly in web browsers. Key features include:\n\n- Cannon Control: Players shoot lasers at alien adversaries.\n- Automatic Shooting: Continuous engagement without manual firing.\n- Obstacle Blocks: Adds challenge and strategy to the gameplay.\n- Real-Time Scoring: Tracks player performance.\n\nThis project showcases Three.js' capabilities for creating interactive 3D games, delivering visually compelling experiences in the browser.`,
+        
+    },
+
+    {
+        name: 'Digital Lock System',
+        title: 'Digital Lock System',
+        thumbnail: Lockthumbnail,
+        video: DigitalLockVideo, // Video link added
+        isVideo: true, // Mark it as an image-based project
+        url: 'https://github.com/Rajbin-BK',
+        git_url: 'https://github.com/Rajbin-BK',
+        description: 
+            `This project implements a hardware-based security mechanism using combinational and sequential circuits to simulate a secure digital lock system. It requires users to input a specific sequence via a keypad, which is verified using a finite state machine (FSM). The system utilizes D-flipflops for state storage, ROM for sequence validation, and LED indicators to display lock status. A reset mechanism ensures security by clearing inputs after incorrect attempts or inactivity.\n
+            This project showcases the practical application of digital logic design and finite state machines, simulating a real-world security system.`,
         
     },
 
