@@ -29,7 +29,7 @@ const About = () => {
               className="w-full lg:w-[30%] flex justify-center items-start ml-7"
             >
               <div className='relative'>
-                <img src='/about.pic.png' alt='Profile' className='rounded-lg mt-4 z-20 relative max-w-[300px] md:max-w-[400px] lg:max-w-[400px]' />
+                <img src='/about.pic.JPG' alt='Profile' className='rounded-lg mt-4 z-20 relative max-w-[300px] md:max-w-[400px] lg:max-w-[400px]' />
               </div>
             </div>
 
@@ -50,7 +50,7 @@ const About = () => {
                 data-aos-delay="600"
                 className="text-center flex flex-row lg:flex-row justify-center items-stretch mt-6 lg:space-x-8"
               >
-                <div
+                <div 
                   className="font-bold text-2xl lg:text-4xl text-center rounded-[20px] border-blue-900 border-r-2 border-b-2 hover:border-r-4 hover:border-b-4 px-6 py-4 flex flex-col justify-start items-center text-blue-700 hover:text-gray-300 transition duration-300 bg   w-full lg:w-[45%] min-h-[220px] flex-grow">
                   <img src='/icons/badge.png' alt="Experience icon" className="icon mb-2 w-12 h-12" />
                   <p className="text-blue-400 text-lg">Experience</p>

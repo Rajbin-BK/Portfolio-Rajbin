@@ -124,7 +124,7 @@ const Sample = () => {
                             </div>
                             {/* right side */}
                             <div data-aos="fade-left" data-aos-duration="1500" className='flex-1  relative'>
-                                <img src='/Avater2.png' alt='Profile' className='mt-4 z-20 relative rounded-3xl' />
+                                <img src='/pic_front.jpg' alt='Profile' className='mt-4 z-20 relative rounded-3xl' />
                             </div>
                         </div>
                     </div>
