@@ -58,7 +58,7 @@ const About = () => {
                     2+ years<br />Frontend Development
                   </p>
                   <p className="font-thin text-gray-200 text-base">
-                    1 year<br />Backend Development
+                    1 year<br  />Backend Development
                   </p>
                 </div>
 
