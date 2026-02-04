@@ -34,7 +34,7 @@ const Contact = () => {
           setEmail("")
           setSubject("")
           setMessage("")
-          //window.location.reload()
+          //  window.location.reload()
         },
         (error) => {
           alert("Failed: Message not sent", error)
